@@ -1,0 +1,8 @@
+[] Profile routing
+[] Google Map API
+[] Login/Register with outside account
+[] Spacing
+[] Drop down menu for "Fitness Goals" and "Gender"
+[] Button highlighting
+[] Images/Logos
+[] Contact Email
