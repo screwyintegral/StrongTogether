@@ -6,3 +6,23 @@
 [] Button highlighting
 [] Images/Logos
 [] Contact Email
+
+[X] Built on ASP.NET Core 3
+[X] Has a 3 tier architecture
+[] Is hosted in Microsoft Azure
+[] Stores data in a hosted SQL database
+[] Follows MVC, CRUD and RESTful conventions
+[X] Requires user interaction
+[] Manages multiple users
+[] Exposes a public API (contact?)
+[] Utilizes at least one external public API (google map)
+[] Utilizes complex data models
+[] Exposes complex nature of data to users
+[] Incorporates good coding and testing practices
+[X] Coding conventions
+[] Error/exception handling
+[] Don't repeat yourself (DRY)
+[] Security
+[] Testing plan including ad hoc description, one example test script and one Fact and one Theory test for each of your models
+[X] Code/change management
+[X] CI/CD
