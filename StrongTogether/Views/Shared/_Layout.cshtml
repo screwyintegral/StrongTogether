@@ -6,12 +6,20 @@
     <title>@ViewData["Title"] - StrongTogether</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <style>
+        .nav-item:hover {
+            color: #001F3F;
+            background-color: #8ECEEB;
+        }
+    </style>
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img alt="gym logo" src="dir to pic"/></a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img alt="gym logo" src="~/logo.png"
+                                                                                                  width="70"
+                                                                                                  height="70"/></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -41,9 +49,20 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            <a href="https://www.facebook.com">facebook logo</a>
-            <a href="https://www.instagram.com">instagram logo</a>
-            <p>Nicole Binette, Christian Hilson, Kylie Dillon, Tamires Boniolo</p>
+            <span style="display:flex">
+                <a href="https://www.facebook.com">
+                    <img alt="facebook logo" src="~/fblogo.png"
+                         width="25"
+                         height="25" />
+                </a>
+                <a href="https://www.instagram.com">
+                    <img alt="instagram logo" src="~/iglogo.png"
+                         width="25"
+                         height="25" />
+                </a>
+                &nbsp&nbsp
+                <p>Nicole Binette, Christian Hilson, Kylie Dillon, Tamires Boniolo</p>
+            </span>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
